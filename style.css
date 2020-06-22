@@ -1,0 +1,74 @@
+body{
+    display: block;
+    margin: 8px;
+}
+
+.services{
+    height: 300px;
+    display: flex;
+}
+.services3{
+       margin: auto;
+}
+.service{
+    width: 300px;
+    float: left;
+}
+.sircle1{
+    width: 65px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 31px;
+    background: url(./img/Tablet.png) no-repeat;
+    background-position: center;
+    background-color: #ffffff;
+    border: 1px solid #2a69a6;
+}
+.sircle2{
+    width: 65px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 31px;
+    background: url(./img/Dashboard.png) no-repeat;
+    background-position: center;
+    background-color: #2a69a6;
+    border: 1px solid #2a69a6;
+}
+.sircle3{
+    width: 65px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 31px;
+    background: url(./img/Settings.png) no-repeat;
+    background-position: center;
+    background-color: #2a69a6;
+    border: 1px solid #2a69a6;
+}
+.service-title{
+    text-align: center;
+    font-family: "ProximaNovaRegular";
+    margin-top: 10px;
+}
+.service-discription{
+    text-align: center;
+    padding: 10px;
+    color: #9d9d9d;
+}
+.sircle1:hover {
+    background: url(img/Tablet2blue.png) no-repeat;
+    background-position: center;
+    background-color: #2a69a6;
+}
+.sircle2:hover {
+    background: url(img/Dashboard.png) no-repeat;
+    background-position: center;
+    background-color: #ffffff;
+}
+.sircle3:hover {
+    background: url(img/Settings.png) no-repeat;
+    background-position: center;
+    background-color: #ffffff;
+}
